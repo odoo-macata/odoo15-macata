@@ -1,0 +1,4 @@
+[submodule "ctmil/odoo-argentina"]
+	path = ctmil/odoo-argentina
+	url = git@github.com:ctmil/odoo-argentina.git
+	branch = 15.0
