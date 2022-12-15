@@ -2,3 +2,8 @@
 	path = ctmil/odoo-argentina
 	url = git@github.com:ctmil/odoo-argentina.git
 	branch = 15.0
+
+[submodule "OCA/reporting-engine"]
+	path = OCA/reporting-engine
+	url = git@github.com:OCA/reporting-engine.git
+	branch = 15.0
