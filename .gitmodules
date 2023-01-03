@@ -17,3 +17,8 @@
 	path = ingadhoc/account-financial-tools
 	url = git@github.com:ingadhoc/account-financial-tools.git
 	branch = 15.0
+
+[submodule "OCA/product-pack"]
+	path = OCA/product-pack
+	url = git@github.com:OCA/product-pack.git
+	branch = 15.0
