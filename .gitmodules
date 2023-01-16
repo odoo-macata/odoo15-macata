@@ -7,3 +7,8 @@
 	path = ingadhoc/odoo-argentina-ce
 	url = git@github.com:ingadhoc/odoo-argentina-ce.git
 	branch = 15.0
+
+[submodule "ingadhoc/account-invoicing"]
+	path = ingadhoc/account-invoicing
+	url = git@github.com:ingadhoc/account-invoicing.git
+	branch = 15.0
