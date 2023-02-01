@@ -32,3 +32,8 @@
 	path = OCA/product-pack
 	url = git@github.com:OCA/product-pack.git
 	branch = 15.0
+
+[submodule "ingadhoc/multi-store"]
+	path = ingadhoc/multi-store
+	url = git@github.com:ingadhoc/multi-store.git
+	branch = 15.0
