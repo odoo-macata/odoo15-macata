@@ -37,3 +37,8 @@
 	path = ingadhoc/multi-store
 	url = git@github.com:ingadhoc/multi-store.git
 	branch = 15.0
+
+[submodule "OCA/connector-woocommerce"]
+	path = OCA/connector-woocommerce
+	url = git@github.com:OCA/connector-woocommerce.git
+	branch = 15.0
