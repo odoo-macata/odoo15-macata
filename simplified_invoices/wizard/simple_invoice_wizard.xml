@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_simple_invoice_wizard" model="ir.ui.view">
+        <field name="name">Create Simple Invoice Wizard</field>
+        <field name="model">simple.invoice.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Create Simple Invoice">
+                <group>
+                    <field name="billable_product_id" string="Billable Product"/>
+                </group>
+                <footer>
+                    <button name="create_simple_invoice" type="object" string="Create invoice" class="oe_highlight"/>
+                    <button special="cancel" string="Exit"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <act_window id="action_simple_invoice_wizard" name="Create Simple Invoice" binding_model="sale.order" binding_views="list"
+    	res_model="simple.invoice.wizard" view_mode="form" target="new" view_id="view_simple_invoice_wizard"/>
+</odoo> 

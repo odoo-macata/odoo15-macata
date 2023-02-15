@@ -1,0 +1,1 @@
+from . import simple_invoice_wizard

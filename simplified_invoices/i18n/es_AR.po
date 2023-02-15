@@ -1,0 +1,89 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* simplified_invoices
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-11 17:28+0000\n"
+"PO-Revision-Date: 2023-02-11 17:28+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: simplified_invoices
+#: model:ir.model.fields,field_description:simplified_invoices.field_simple_invoice_wizard__billable_product_id
+#: model_terms:ir.ui.view,arch_db:simplified_invoices.view_simple_invoice_wizard
+msgid "Billable Product"
+msgstr "Producto Facturable"
+
+#. module: simplified_invoices
+#: model:ir.actions.act_window,name:simplified_invoices.action_simple_invoice_wizard
+#: model_terms:ir.ui.view,arch_db:simplified_invoices.view_order_form_inherit_simple_invoice
+#: model_terms:ir.ui.view,arch_db:simplified_invoices.view_simple_invoice_wizard
+msgid "Create Simple Invoice"
+msgstr "Crear Factura simplificada"
+
+#. module: simplified_invoices
+#: model:ir.model,name:simplified_invoices.model_simple_invoice_wizard
+msgid "Create Simple Invoice Wizard"
+msgstr "Crear Factura simplificada Wizard"
+
+#. module: simplified_invoices
+#: model_terms:ir.ui.view,arch_db:simplified_invoices.view_simple_invoice_wizard
+msgid "Create invoice"
+msgstr "Crear Factura"
+
+#. module: simplified_invoices
+#: model:ir.model.fields,field_description:simplified_invoices.field_simple_invoice_wizard__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: simplified_invoices
+#: model:ir.model.fields,field_description:simplified_invoices.field_simple_invoice_wizard__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: simplified_invoices
+#: model:ir.model.fields,field_description:simplified_invoices.field_simple_invoice_wizard__display_name
+msgid "Display Name"
+msgstr "Nombre a mostras"
+
+#. module: simplified_invoices
+#: model_terms:ir.ui.view,arch_db:simplified_invoices.view_simple_invoice_wizard
+msgid "Exit"
+msgstr "Cerrar"
+
+#. module: simplified_invoices
+#: model:ir.model.fields,field_description:simplified_invoices.field_simple_invoice_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: simplified_invoices
+#: model:ir.model.fields,field_description:simplified_invoices.field_simple_invoice_wizard____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: simplified_invoices
+#: model:ir.model.fields,field_description:simplified_invoices.field_simple_invoice_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: simplified_invoices
+#: model:ir.model.fields,field_description:simplified_invoices.field_simple_invoice_wizard__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: simplified_invoices
+#: model:ir.model,name:simplified_invoices.model_sale_order
+msgid "Sales Order"
+msgstr "Pedido de venta"
+
+#. module: simplified_invoices
+#: model:ir.model,name:simplified_invoices.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Línea de pedido de venta"
