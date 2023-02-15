@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_order_form_inherit_simple_invoice" model="ir.ui.view">
+        <field name="name">sale.order.form</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//header/button[@id='action_confirm']" position="before">
+            	 <button name="%(simplified_invoices.action_simple_invoice_wizard)d" string="Create Simple Invoice" type="action" class="btn-primary"/>
+            </xpath>
+        </field>
+    </record>
+</odoo> 
